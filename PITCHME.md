@@ -93,6 +93,24 @@ Good practices for a commit message
 
 Keeping your branch current with the upstream branch will make everyone's life easier when it comes to combining your work with the rest. Just like committing early and often is important, it's equally important to rebase your work on top of the branch you derived off off (typically  @color[red](development))
 
+@fa[arrow-down]
+
++++
+
+@transition[slide]
+
+### @color[orange](Keeping your branch current, example)
+
+```
+> git add .
+> git commit -m "[CF] my meaningful message"
+> git checkout development
+> git pull origin development
+> git checkout -
+> git rebase development
+> git push 
+```
+
 ---
 
 ### @color[orange](Pull Requests)
