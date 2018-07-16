@@ -8,7 +8,13 @@ The purpose of this discussion is to bring alignment to our code management proc
 
 #### @fa[git] 
 
-As of last week, we are no longer using the `mobile/development` branch. All teams are now focusing their efforts on the `developement` branch. New branching structure is as follows
+As of last week, we are no longer using the @color[red](mobile/development) branch. All teams are now focusing their efforts on the `developement` branch. New branching structure is as follows
+
+@fa[arrow-down]
+
++++
+
+@transition[slide]
 
  @color[red](master)
     
