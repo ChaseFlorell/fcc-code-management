@@ -34,7 +34,7 @@ As of last week, we are no longer using the @color[red](mobile/development) bran
 
  @color[red](release/[N.N]) *@color[white](where N.N is the release version)*
  
-  - work staged for the upcoming release
+  - work poised for the upcoming release
   - this branch is feature complete
   - only bug fixes once this branch is created
   - any developer PRing to this branch is responsible to also PR to @color[red](development)
@@ -56,7 +56,9 @@ As of last week, we are no longer using the @color[red](mobile/development) bran
 
 ### @color[orange](Commits)
 
-Keeping your code manageable starts with your commits. It's important to commit early, commit often, and keep your commits small. A single file commit is best, but at minimum, keep your commits to a single topic. It's ok to have many commits in a single Pull Request.
+Keeping your code manageable starts with your commits. 
+
+It's important to commit early, commit often, and keep your commits small. A single file commit is best, but at minimum, keep your commits to a single topic. It's ok to have many commits in a single Pull Request.
 
 @fa[arrow-down]
 
@@ -107,6 +109,51 @@ git commit -m "fixed stuff"
 Keeping your branch current with the upstream branch will make everyone's life easier when it comes to combining your work with the rest. Just like committing early and often is important, it's equally important to rebase the source branch (typically  @color[red](development)) when you commit, or at least every couple of commits. 
 
 *watching for completed PRs and rebasing at that point is also acceptable*
+
+@fa[arrow-down]
+
++++
+
+@transition[slide]
+
+### @color[orange](Keeping your branch current cont...)
+
+Merging vs Rebasing
+
+This is a topic unto itself and can be an entire discussion on it's own. 
+
+@fa[arrow-down]
+
++++
+
+@transition[slide]
+
+### @color[orange](Keeping your branch current cont...)
+Merging literally merges two code bases together, creating a merge commit in the process. Once a merge happens, the linear line of commits is broken.
+
+@fa[arrow-down]
+
++++
+
+@transition[slide]
+
+### @color[orange](Keeping your branch current cont...)
+
+Rebasing will re-base your work on top of the source branch. In other words, your work will move to the front of the line and be based on the source.
+
+@fa[arrow-down]
+
++++
+
+@transition[slide]
+
+### @color[orange](Keeping your branch current cont...)
+
+The Golden Rule of Rebasing
+
+Once you understand what rebasing is, the most important thing to learn is when not to do it. The golden rule of git rebase is to never use it on public branches.
+
+Essentially, you can rebase your branch off of @color[red](development) but you **never** want to rebase @color[red](development) off of your branch.
 
 @fa[arrow-down]
 
