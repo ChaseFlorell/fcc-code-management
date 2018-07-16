@@ -15,7 +15,7 @@ As of last week, we are no longer using the `mobile/development` branch. All tea
 
 ---
 
-### @color[orange](Branches)
+### @color[orange](Branches @size[0.75](cont..))
 
  - @color[red](release/[N.N]) (where N.N is the release version)
     - work staged for the upcoming release
