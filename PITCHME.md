@@ -84,8 +84,7 @@ Good practices for a commit message
  - adding your initials to a commit message makes it easier to see code authors when scanning the commit log.
  
 ```
-> git commit -m "[CF] (Issue #1234) Changed 
-ActivityList to enable filtering icon on the tool bar."
+> git commit -m "[CF] (Issue #1234) meaningful message"
 ```
 ---
 
