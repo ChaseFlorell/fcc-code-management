@@ -127,7 +127,7 @@ Merging vs Rebasing
 @transition[slide]
 
 ### @color[orange](Keeping your branch current cont...)
-Merging literally merges two code bases together, creating a merge commit in the process. Once a merge happens, the linear line of commits is broken.
+Merging literally merges two code bases together, this will create a merge commit in the process. Once a merge happens, the linear line of commits is broken, think of shuffling a deck of cards.
 
 @fa[arrow-down]
 
