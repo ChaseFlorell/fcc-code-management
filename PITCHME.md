@@ -60,6 +60,14 @@ As of last week, we are no longer using the @color[red](mobile/development) bran
 
 Keeping your code manageable starts with your commits. It's important to commit early and commit often and keep your commits small. A single file commit is best, but at minimum, keep your commits to a single topic. It's ok to have many commits in a single Pull Request.
 
+@fa[arrow-down]
+
++++
+
+@transition[slide]
+
+### @color[orange](Commits cont...)
+
 Commit messages are equally as important. By adding your task/bug/issue number in your commit message, VSTS can reference it in your story as well as your pull request. It also makes it easier to track down code changes from within the story card. When you add your issue number to your commit message, the story will become automatically referenced in your Pull Request.
 
 ### @color[orange](Pull Requests)
