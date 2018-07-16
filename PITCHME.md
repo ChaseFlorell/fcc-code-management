@@ -120,9 +120,7 @@ Keeping your branch current with the upstream branch will make everyone's life e
 
 Merging vs Rebasing
 
-This is a topic unto itself and can be an entire discussion on it's own. 
-
-@fa[arrow-down]
+ @fa[arrow-down] @fa[arrow-down] @fa[arrow-down]
 
 +++
 
