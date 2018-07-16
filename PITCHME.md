@@ -4,7 +4,7 @@ The purpose of this discussion is to bring alignment to our code management proc
 
 ---
 
-### @color[orange](Branches cont..) @fa[git]
+### @color[orange](Branches) @fa[code-branch] 
 
 As of last week, we are no longer using the `mobile/development` branch. All teams are now focusing their efforts on the `developement` branch. New branching structure is as follows
 
@@ -13,7 +13,9 @@ As of last week, we are no longer using the `mobile/development` branch. All tea
     - each release will also get tagged with the released version
     - only hotfixes are created off of this branch
 
----
+@fa[arrow-down]
+
++++
 
 ### @color[orange](Branches cont..)
 
@@ -23,7 +25,9 @@ As of last week, we are no longer using the `mobile/development` branch. All tea
     - only bug fixes once this branch is created
     - any developer PRing to this branch is responsible to also PR to @color[red](development)
 
----
+@fa[arrow-down]
+
++++
 
 ### @color[orange](Branches cont..)
 
