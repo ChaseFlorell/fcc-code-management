@@ -74,6 +74,8 @@ Commit messages are equally as important. By adding your task/bug/issue number i
 
 ### @color[orange](Pull Requests)
 
-Keeping your PRs small is extremely important to code quality. If a given reviewer is going to give you 5 minutes of their time for a code review, that 5 minutes spent on a huge PR will inevitably cause a drop in quality.
+Keeping your PRs small is extremely important to code quality. 
+
+> If a given reviewer is going to give you 5 minutes of their time for a code review, that 5 minutes spent on a huge PR will inevitably cause a drop in quality.
 
 Submitting a single PR per Task will result in your code being easier to review and understand.
