@@ -86,6 +86,13 @@ Good practices for a commit message
 ```
 > git commit -m "[CF] (Issue #1234) meaningful message"
 ```
+
+---
+
+### @color[orange](Keeping your branch current)
+
+Keeping your branch current with the upstream branch will make everyone's life easier when it comes to combining your work with the rest. Just like committing early and often is important, it's equally important to rebase your work on top of the branch you derived off off (typically  @color[red](development))
+
 ---
 
 ### @color[orange](Pull Requests)
