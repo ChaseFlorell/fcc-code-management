@@ -111,7 +111,7 @@ Keeping your branch current with the upstream branch will make everyone's life e
 > git push 
 ```
 
-@[1,2](Commit your current work.) @[3,4](Update the working copy of your source branch) @[5-7](Rebase on top of your source branch, and then push)
+@[1,2](Commit your current work.) @[3,4](Update the working copy of your source branch.) @[5-7](Rebase on top of your source branch, and then push.)
 
 ---
 
