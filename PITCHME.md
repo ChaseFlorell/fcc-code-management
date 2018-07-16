@@ -5,7 +5,7 @@ The purpose of this discussion is to bring alignment to our code management proc
 ---
 
 ### @color[orange](Branches) 
-####@fa[code-branch] 
+#### @fa[code-branch] 
 
 As of last week, we are no longer using the `mobile/development` branch. All teams are now focusing their efforts on the `developement` branch. New branching structure is as follows
 
