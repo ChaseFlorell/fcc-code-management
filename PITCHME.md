@@ -4,7 +4,7 @@ The purpose of this discussion is to bring alignment to our code management proc
 
 ---
 
-### @color[orange](Branches)
+### @color[orange](Branches cont..) @fa[git]
 
 As of last week, we are no longer using the `mobile/development` branch. All teams are now focusing their efforts on the `developement` branch. New branching structure is as follows
 
@@ -15,9 +15,9 @@ As of last week, we are no longer using the `mobile/development` branch. All tea
 
 ---
 
-### @color[orange](Branches @size[0.75](cont..))
+### @color[orange](Branches cont..)
 
- - @color[red](release/[N.N]) (where N.N is the release version)
+ - @color[red](release/[N.N]) @color[](where N.N is the release version)
     - work staged for the upcoming release
     - this branch is feature complete
     - only bug fixes once this branch is created
@@ -25,7 +25,7 @@ As of last week, we are no longer using the `mobile/development` branch. All tea
 
 ---
 
-### @color[orange](Branches)
+### @color[orange](Branches cont..)
 
  - @color[red](development)
     - all remaning work happens here
