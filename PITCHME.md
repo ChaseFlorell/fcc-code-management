@@ -6,7 +6,7 @@ The purpose of this discussion is to bring alignment to our code management proc
 
 ### @color[orange](Branches) 
 
-#### @fa[git] 
+**@fa[git]**
 
 As of last week, we are no longer using the @color[red](mobile/development) branch. All teams are now focusing their efforts on the `developement` branch. New branching structure is as follows
 
@@ -15,6 +15,8 @@ As of last week, we are no longer using the @color[red](mobile/development) bran
 +++
 
 @transition[slide]
+
+### @color[orange](Branches cont..)
 
  @color[red](master)
     
