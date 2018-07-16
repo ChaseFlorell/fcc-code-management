@@ -56,7 +56,7 @@ As of last week, we are no longer using the @color[red](mobile/development) bran
 
 ### @color[orange](Commits)
 
-Keeping your code manageable starts with your commits. It's important to commit early and commit often and keep your commits small. A single file commit is best, but at minimum, keep your commits to a single topic. It's ok to have many commits in a single Pull Request.
+Keeping your code manageable starts with your commits. It's important to commit early, commit often, and keep your commits small. A single file commit is best, but at minimum, keep your commits to a single topic. It's ok to have many commits in a single Pull Request.
 
 @fa[arrow-down]
 
@@ -66,7 +66,7 @@ Keeping your code manageable starts with your commits. It's important to commit 
 
 ### @color[orange](Commit Messages)
 
-Commit messages are equally as important. By adding your task/bug/issue number in your commit message, VSTS can reference it in your story as well as your pull request. It also makes it easier to track down code changes from within the story card. When you add your issue number to your commit message, the story will become automatically referenced in your Pull Request.
+Commit messages are equally as important. By adding your task/bug/issue number in your commit message, VSTS can reference it in your story as well as your pull request. It also makes it easier to track down code changes from within the story card. When you add your issue number to your commit message, the story will automatically be referenced in your Pull Request.
 
 @fa[arrow-down]
 
@@ -78,18 +78,35 @@ Commit messages are equally as important. By adding your task/bug/issue number i
 
 Good practices for a commit message
 
- - helpful commit messages include describing what you've done and files that changed
+ - helpful commit messages include describing what you've done and files that changed.
  - adding your initials to a commit message makes it easier to see code authors when scanning the commit log.
  
 ```
 > git commit -m "[CF] (Issue #1234) meaningful message"
 ```
 
+@fa[arrow-down]
+
++++
+
+@transition[slide]
+
+### @color[orange](Commit Messages cont...)
+
+Unhelpful commit messages
+
+```
+git commit -m "I hate timezones"
+git commit -m "fixed stuff"
+```
+
 ---
 
 ### @color[orange](Keeping your branch current)
 
-Keeping your branch current with the upstream branch will make everyone's life easier when it comes to combining your work with the rest. Just like committing early and often is important, it's equally important to rebase your work on top of the branch you derived off off (typically  @color[red](development))
+Keeping your branch current with the upstream branch will make everyone's life easier when it comes to combining your work with the rest. Just like committing early and often is important, it's equally important to rebase the source branch (typically  @color[red](development)) when you commit, or at least every couple of commits. 
+
+*watching for completed PRs and rebasing at that point is also acceptable*
 
 @fa[arrow-down]
 
