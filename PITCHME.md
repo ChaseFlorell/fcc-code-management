@@ -66,8 +66,14 @@ Keeping your code manageable starts with your commits. It's important to commit 
 
 @transition[slide]
 
-### @color[orange](Commits cont...)
+### @color[orange](Commit Messages)
 
 Commit messages are equally as important. By adding your task/bug/issue number in your commit message, VSTS can reference it in your story as well as your pull request. It also makes it easier to track down code changes from within the story card. When you add your issue number to your commit message, the story will become automatically referenced in your Pull Request.
 
+---
+
 ### @color[orange](Pull Requests)
+
+Keeping your PRs small is extremely important to code quality. If a given reviewer is going to give you 5 minutes of their time for a code review, that 5 minutes spent on a huge PR will inevitably cause a drop in quality.
+
+Submitting a single PR per Task will result in your code being easier to review and understand.
