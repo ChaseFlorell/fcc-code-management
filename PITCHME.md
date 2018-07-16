@@ -84,7 +84,8 @@ Good practices for a commit message
  - adding your initials to a commit message makes it easier to see code authors when scanning the commit log.
  
 ```
-> git commit -m "[CF] (Issue #1234) Changed ActivityList to enable filtering icon on the tool bar."
+> git commit -m "[CF] (Issue #1234) Changed 
+ActivityList to enable filtering icon on the tool bar."
 ```
 ---
 
@@ -108,6 +109,6 @@ Good practices for a pull request
 
  - adding the size in the PR title helps reviewers know what they're in for.
 
- > [S] this is a small PR
+ > [S] Added French translations for Field Details
 
   - when you begin reviewing ones PR, add a commit as such so that others know it's already being reviewed.

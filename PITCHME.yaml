@@ -3,7 +3,7 @@ layout : center-left
 
 # Look-and-Feel
 theme : moon
-highlight : ir-black
+highlight : monokai
 
 # Behavior
 transition : fade
