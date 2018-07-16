@@ -1,0 +1,10 @@
+# Layout
+layout : center-right
+
+# Look-and-Feel
+theme : night
+highlight : ir-black
+
+# Behavior
+transition : fade
+published : true
