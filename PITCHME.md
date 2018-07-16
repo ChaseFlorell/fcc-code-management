@@ -32,7 +32,7 @@ As of last week, we are no longer using the @color[red](mobile/development) bran
 
 ### @color[orange](Branches cont..)
 
- @color[red](release/[N.N]) @color[](where N.N is the release version)
+ @color[red](release/[N.N]) *@color[white](where N.N is the release version)*
  
   - work staged for the upcoming release
   - this branch is feature complete
