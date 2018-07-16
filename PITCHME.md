@@ -206,3 +206,5 @@ Good practices for a pull request
 ---
 
   ### @color[orange](Questions / Discussion...)
+
+   - Daniel: discuss branch folders
